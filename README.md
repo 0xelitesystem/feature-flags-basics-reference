@@ -8,15 +8,19 @@ A feature flag is a conditional in your code that turns a behavior on or off at 
 
 ## What is inside
 
-- `01-what-feature-flags-are.md` what a flag is, why decoupling deploy from release matters, and the evaluation model.
-- `02-types-of-flags.md` the four working categories: release, ops, experiment, and permission flags.
-- `03-rollout-strategies.md` percentage rollouts, ring deployments, targeting rules, and kill switches.
-- `04-flag-debt-and-cleanup.md` how stale flags accumulate, the costs they impose, and a removal process.
-- `05-tooling-vs-diy-and-risks.md` when a platform earns its keep, when DIY is fine, and the failure modes to plan for.
+- [01-what-feature-flags-are.md](01-what-feature-flags-are.md) what a flag is, why decoupling deploy from release matters, and the evaluation model.
+- [02-types-of-flags.md](02-types-of-flags.md) the four working categories: release, ops, experiment, and permission flags.
+- [03-rollout-strategies.md](03-rollout-strategies.md) percentage rollouts, ring deployments, targeting rules, and kill switches.
+- [04-flag-debt-and-cleanup.md](04-flag-debt-and-cleanup.md) how stale flags accumulate, the costs they impose, and a removal process.
+- [05-tooling-vs-diy-and-risks.md](05-tooling-vs-diy-and-risks.md) when a platform earns its keep, when DIY is fine, and the failure modes to plan for.
 
 ## The stance
 
 Feature flags are one of the highest-leverage practices in modern delivery, but every flag is a small liability with a real carrying cost. Treat short-lived release flags as temporary by default and delete them on a schedule, while keeping long-lived ops and permission flags clearly labeled. Start with the simplest config mechanism that works and reach for a platform only when targeting, audit, and scale demand it.
+
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
 
 ## License
 
